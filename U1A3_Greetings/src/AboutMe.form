@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AboutMe">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="594" height="429"/>
+    </constraints>
+    <properties/>
+    <border type="none">
+      <font/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <vspacer id="3ea3f">
+        <constraints>
+          <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b6ac2" class="javax.swing.JLabel" binding="NameL">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <foreground color="-16743749"/>
+          <text value="Name: "/>
+        </properties>
+      </component>
+      <component id="cffb6" class="javax.swing.JLabel" binding="SchoolL">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4493819"/>
+          <text value="School:"/>
+        </properties>
+      </component>
+      <component id="f2af" class="javax.swing.JLabel" binding="School">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Jarvis Collegiate Institute"/>
+        </properties>
+      </component>
+      <component id="b7871" class="javax.swing.JLabel" binding="MusicGenreL">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4517229"/>
+          <text value="Favorite Music Genre:"/>
+        </properties>
+      </component>
+      <component id="1d480" class="javax.swing.JLabel" binding="MusicGenre">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="1950s Jazz"/>
+        </properties>
+      </component>
+      <component id="ea75c" class="javax.swing.JLabel" binding="MusicL">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4517632"/>
+          <text value="Favorite Music:"/>
+        </properties>
+      </component>
+      <component id="b1ef8" class="javax.swing.JLabel" binding="Music">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mr. Sandman"/>
+        </properties>
+      </component>
+      <component id="17bde" class="javax.swing.JLabel" binding="ColorL">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Favorite Color:"/>
+        </properties>
+      </component>
+      <component id="d764" class="javax.swing.JLabel" binding="Color">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="White"/>
+        </properties>
+      </component>
+      <component id="d6ee6" class="javax.swing.JLabel" binding="LastNameL">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16743749"/>
+          <text value="Last Name:"/>
+        </properties>
+      </component>
+      <component id="c947a" class="javax.swing.JLabel" binding="LastName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Yuan"/>
+        </properties>
+      </component>
+      <component id="818f7" class="javax.swing.JLabel" binding="SubjectsL">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15353075"/>
+          <text value="Favorite Class:"/>
+        </properties>
+      </component>
+      <component id="e7255" class="javax.swing.JLabel" binding="Subjects">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&quot;all of them&quot;"/>
+        </properties>
+      </component>
+      <component id="48e6b" class="javax.swing.JLabel" binding="Name">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Frank Zhen"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
